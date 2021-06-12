@@ -1,0 +1,36 @@
+.formcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 64%;
+    width: 16%;
+    text-align: center;
+    border: #060b26 2px solid;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    
+}
+.formcardEdit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 64%;
+    width: 100%;
+    text-align: center; 
+    
+}
+.tittle{
+    color:#060b26;
+    margin-bottom: 20px;
+    font-size: 150%;
+}
+.btnsubmit{
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.tableInformation{
+    margin-left: 10%;
+}

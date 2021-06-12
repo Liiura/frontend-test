@@ -1,0 +1,33 @@
+.card{
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 230px;
+    text-align: center;
+    border: #060b26 2px solid;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    margin-left: 60px;
+}
+.containerCards{
+    flex-direction: row;
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.headerCard, .bottomCard{
+    margin-top: 10px;
+    width: 200px;
+    background-color: #BCBCBC;
+    margin-left: 5%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.lessons{
+    flex-direction: column;
+    display: flex;
+}
